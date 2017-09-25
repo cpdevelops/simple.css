@@ -1,0 +1,87 @@
+/* Welcome to simple.css. Simple.css is a css framework
+designed to be simple to use and edit. */
+
+/* Designed by Colin Pokowitz (cpdev) */
+/* Written in 2017 */
+/* Copyrighted under the MIT Licence */
+
+/* Importing font */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+/* Univeral Fonts and Stuff */
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* Buttons */
+button.button {
+  padding: 12px 18px;
+  background-color: white;
+  border-style: solid;
+  border-color: black;
+  border-radius: 10%;
+  font-size: 15px;
+}
+button.button:hover {
+  transition: background-color 0.1s, color 0.1s;
+  background-color: black;
+  color: white;
+}
+button.button.info {
+  color: blue;
+  border-color: blue;
+}
+button.button.info:hover {
+  transition: background-color 0.1s, color 0.1s;
+  background-color: blue;
+  color: white;
+}
+button.button.success {
+  color: green;
+  border-color: green;
+}
+button.button.success:hover {
+  transition: background-color 0.1s, color 0.1s;
+  background-color: green;
+  color: white;
+}
+button.button.warning {
+  color: #f0f008;
+  border-color: yellow;
+}
+button.button.warning:hover {
+  transition: background-color 0.1s, color 0.1s;
+  background-color: yellow;
+  color: white;
+}
+button.button.danger {
+  color: red;
+  border-color: red;
+}
+button.button.danger:hover {
+  transition: background-color 0.1s, color 0.1s;
+  background-color: red;
+  color: white;
+}
+
+/* Jumbotron */
+div.jumbotron {
+  background-color: #b3b7ba;
+  /*width: 100%;*/
+  border-radius: 5px;
+  padding: 20px 20px 20px 20px;
+}
+div.jumbotron > h1 {
+  font-size: 50px;
+  text-align: center;
+}
+div.jumbotron > p {
+  text-align: center;
+  font-size: 25px;
+}
+.headerCentered {
+  text-align: center;
+}
+ul.dotList {
+  list-style-type: disc;
+}
