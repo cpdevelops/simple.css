@@ -64,6 +64,11 @@ button.button.danger:hover {
   color: white;
 }
 
+/* Button Sizes */
+button.button.large {
+  padding: 30px 15px 30px 15px;
+}
+
 /* Jumbotron */
 div.jumbotron {
   background-color: #b3b7ba;
