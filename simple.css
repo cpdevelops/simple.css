@@ -19,8 +19,9 @@ button.button {
   background-color: white;
   border-style: solid;
   border-color: black;
-  border-radius: 10%;
+  border-radius: 0.5rem;
   font-size: 15px;
+  cursor: pointer;
 }
 button.button:hover {
   transition: background-color 0.1s, color 0.1s;
@@ -32,7 +33,6 @@ button.button.info {
   border-color: #007bff;
 }
 button.button.info:hover {
-  transition: background-color 0.1s, color 0.1s;
   background-color: #007bff;
   color: white;
 }
@@ -41,7 +41,6 @@ button.button.success {
   border-color: #28a745;
 }
 button.button.success:hover {
-  transition: background-color 0.1s, color 0.1s;
   background-color: #28a745;
   color: white;
 }
@@ -50,7 +49,6 @@ button.button.warning {
   border-color: #ffc107;
 }
 button.button.warning:hover {
-  transition: background-color 0.1s, color 0.1s;
   background-color: #ffc107;
   color: white;
 }
@@ -59,7 +57,6 @@ button.button.danger {
   border-color: #dc3545;
 }
 button.button.danger:hover {
-  transition: background-color 0.1s, color 0.1s;
   background-color: #dc3545;
   color: white;
 }
