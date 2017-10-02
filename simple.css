@@ -73,6 +73,12 @@ button.button.small {
   padding : 5px ;
   font-size: 15px;
 }
+button.button.shadow {
+  box-shadow: 3px 3px #888888;
+}
+button.button.shadow:hover{
+  box-shadow: 0 0;
+}
 /* Jumbotron */
 div.jumbotron {
   background-color: #b3b7ba;
