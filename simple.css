@@ -28,39 +28,39 @@ button.button:hover {
   color: white;
 }
 button.button.info {
-  color: blue;
-  border-color: blue;
+  color: #007bff;
+  border-color: #007bff;
 }
 button.button.info:hover {
   transition: background-color 0.1s, color 0.1s;
-  background-color: blue;
+  background-color: #007bff;
   color: white;
 }
 button.button.success {
-  color: green;
-  border-color: green;
+  color: #28a745;
+  border-color: #28a745;
 }
 button.button.success:hover {
   transition: background-color 0.1s, color 0.1s;
-  background-color: green;
+  background-color: #28a745;
   color: white;
 }
 button.button.warning {
-  color: #f0f008;
-  border-color: yellow;
+  color: #ffc107;
+  border-color: #ffc107;
 }
 button.button.warning:hover {
   transition: background-color 0.1s, color 0.1s;
-  background-color: yellow;
+  background-color: #ffc107;
   color: white;
 }
 button.button.danger {
-  color: red;
-  border-color: red;
+  color: #dc3545;
+  border-color: #dc3545;
 }
 button.button.danger:hover {
   transition: background-color 0.1s, color 0.1s;
-  background-color: red;
+  background-color: #dc3545;
   color: white;
 }
 
