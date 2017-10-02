@@ -60,6 +60,12 @@ button.button.danger:hover {
   background-color: #dc3545;
   color: white;
 }
+button.button.shadow {
+  box-shadow: 3px 3px #888888;
+}
+button.button.shadow:hover{
+  box-shadow: 0 0;
+}
 
 /* Button Sizes */
 button.button.mini {
