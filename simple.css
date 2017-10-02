@@ -15,11 +15,11 @@ body {
 
 /* Buttons */
 button.button {
-  padding: 12px 18px;
+  padding: 15px;
   background-color: white;
   border-style: solid;
   border-color: black;
-  border-radius: 10%;
+  border-radius: .5em;
   font-size: 15px;
 }
 button.button:hover {
@@ -28,45 +28,48 @@ button.button:hover {
   color: white;
 }
 button.button.info {
-  color: blue;
-  border-color: blue;
+  color: #007bff;
+  border-color: #007bff;
 }
 button.button.info:hover {
   transition: background-color 0.1s, color 0.1s;
-  background-color: blue;
+  background-color: #007bff;
   color: white;
 }
 button.button.success {
-  color: green;
-  border-color: green;
+  color: #28a745;
+  border-color: #28a745;
 }
 button.button.success:hover {
   transition: background-color 0.1s, color 0.1s;
-  background-color: green;
+  background-color: #28a745;
   color: white;
 }
 button.button.warning {
-  color: #f0f008;
-  border-color: yellow;
+  color: #ffc107;
+  border-color: #ffc107;
 }
 button.button.warning:hover {
   transition: background-color 0.1s, color 0.1s;
-  background-color: yellow;
+  background-color: #ffc107;
   color: white;
 }
 button.button.danger {
-  color: red;
-  border-color: red;
+  color: #dc3646;
+  border-color: #dc3646;
 }
 button.button.danger:hover {
   transition: background-color 0.1s, color 0.1s;
-  background-color: red;
+  background-color: #dc3646;
   color: white;
 }
 
 /* Button Sizes */
 button.button.large {
-  padding: 30px 15px 30px 15px;
+  padding: 30px;
+}
+button.button.small {
+  padding: 5px;
 }
 
 /* Jumbotron */
