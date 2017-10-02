@@ -19,9 +19,7 @@ button.button {
   background-color: white;
   border-style: solid;
   border-color: black;
-  border-radius: 0.5rem;
   font-size: 15px;
-  cursor: pointer;
 }
 button.button:hover {
   transition: background-color 0.1s, color 0.1s;
