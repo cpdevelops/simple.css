@@ -19,7 +19,7 @@ button.button {
   background-color: white;
   border-style: solid;
   border-color: black;
-  border-radius: 10%;
+  border-radius: 10px;
   font-size: 15px;
 }
 button.button:hover {
@@ -66,9 +66,13 @@ button.button.danger:hover {
 
 /* Button Sizes */
 button.button.large {
-  padding: 30px 15px 30px 15px;
+  padding: 20px 35px 20px 35px;
+  font-size: 25px;
 }
-
+button.button.small {
+  padding : 5px ;
+  font-size: 15px;
+}
 /* Jumbotron */
 div.jumbotron {
   background-color: #b3b7ba;
