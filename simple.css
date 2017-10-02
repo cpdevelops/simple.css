@@ -20,6 +20,7 @@ button.button {
   border-style: solid;
   border-color: black;
   font-size: 15px;
+  color: black;
 }
 button.button:hover {
   transition: background-color 0.1s, color 0.1s;
