@@ -9,7 +9,7 @@ open source and free for anyone to use.
 Simple.css is currently in development however if you'd like to follow it's progress you can do so [here](http://cpdev.me/simple.css/)
 
 ### Components
-simple.css currently contains the current components
+simple.css currently contains the following components
 * Buttons
 
 #### Buttons
