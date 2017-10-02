@@ -21,6 +21,7 @@ button.button {
   border-color: black;
   border-radius: 10%;
   font-size: 15px;
+  color: black;
 }
 button.button:hover {
   transition: background-color 0.1s, color 0.1s;
