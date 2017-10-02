@@ -65,8 +65,14 @@ button.button.danger:hover {
 }
 
 /* Button Sizes */
+button.button.mini {
+  padding: 2px 5px;
+}
+button.button.small {
+  padding: 6px 9px;
+}
 button.button.large {
-  padding: 30px 15px 30px 15px;
+  padding: 24px 36px;
 }
 
 /* Jumbotron */
