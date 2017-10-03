@@ -1,1 +1,133 @@
-@import url("https://fonts.googleapis.com/css?family=Open+Sans");body{font-family:Open Sans,sans-serif}button.button{cursor:pointer;padding:12px 18px;background-color:#fff;border-style:solid;border-color:#000;font-size:15px;border-radius:.5rem;color:#000}button.button:hover{transition:background-color .1s,color .1s;background-color:#000;color:#fff}button.button.info{color:#007bff;border-color:#007bff}button.button.info:hover{background-color:#007bff;color:#fff}button.button.success{color:#28a745;border-color:#28a745}button.button.success:hover{background-color:#28a745;color:#fff}button.button.warning{color:#ffc107;border-color:#ffc107}button.button.warning:hover{background-color:#ffc107;color:#fff}button.button.danger{color:#dc3545;border-color:#dc3545}button.button.danger:hover{background-color:#dc3545;color:#fff}button.button.shadow{box-shadow:3px 3px #888}button.button.shadow:hover{box-shadow:0 0}button.button.mini{padding:2px 5px}button.button.small{padding:6px 9px}button.button.large{padding:24px 36px}div.jumbotron{background-color:#b3b7ba;border-radius:5px;padding:20px}div.jumbotron>h1{font-size:50px;text-align:center}div.jumbotron>p{font-size:25px}.header-centered,div.jumbotron>p{text-align:center}ul.dotList{list-style-type:disc}div.alert{width:100%;text-align:left;border-radius:.1em;padding:1px}div.alert.info{background-color:#007bff;color:#fff}div.alert>p>span{font-weight:700;font-size:20px}
+/*
+ * Welcome to simple.css
+ * Simple.css is a CSS framework designed to be simple to use and edit
+ *
+ * Designed by Colin Pokowitz (cpdev) - Written in 2017
+ * MIT Licence
+ */
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+button.button {
+  cursor: pointer;
+  padding: 12px 18px;
+  background-color: white;
+  border-style: solid;
+  border-color: black;
+  font-size: 15px;
+  border-radius: 0.5rem;
+  color: black;
+}
+
+button.button:hover {
+  -webkit-transition: background-color 0.1s, color 0.1s;
+  transition: background-color 0.1s, color 0.1s;
+  background-color: black;
+  color: white;
+}
+
+button.button.info {
+  color: #007bff;
+  border-color: #007bff;
+}
+
+button.button.info:hover {
+  background-color: #007bff;
+  color: white;
+}
+
+button.button.success {
+  color: #28a745;
+  border-color: #28a745;
+}
+
+button.button.success:hover {
+  background-color: #28a745;
+  color: white;
+}
+
+button.button.warning {
+  color: #ffc107;
+  border-color: #ffc107;
+}
+
+button.button.warning:hover {
+  background-color: #ffc107;
+  color: white;
+}
+
+button.button.danger {
+  color: #dc3545;
+  border-color: #dc3545;
+}
+
+button.button.danger:hover {
+  background-color: #dc3545;
+  color: white;
+}
+
+button.button.shadow {
+  -webkit-box-shadow: 3px 3px #888888;
+          box-shadow: 3px 3px #888888;
+}
+
+button.button.shadow:hover {
+  -webkit-box-shadow: 0 0;
+          box-shadow: 0 0;
+}
+
+button.button.mini {
+  padding: 2px 5px;
+}
+
+button.button.small {
+  padding: 6px 9px;
+}
+
+button.button.large {
+  padding: 24px 36px;
+}
+
+div.jumbotron {
+  background-color: #b3b7ba;
+  /*width: 100%;*/
+  border-radius: 5px;
+  padding: 20px 20px 20px 20px;
+}
+
+div.jumbotron > h1 {
+  font-size: 50px;
+  text-align: center;
+}
+
+div.jumbotron > p {
+  text-align: center;
+  font-size: 25px;
+}
+
+.header-centered {
+  text-align: center;
+}
+
+ul.dotList {
+  list-style-type: disc;
+}
+
+div.alert {
+  width: 100%;
+  text-align: left;
+  border-radius: 0.1em;
+  padding: 1px 1px 1px 1px;
+}
+
+div.alert.info {
+  background-color: #007bff;
+  color: white;
+}
+
+div.alert > p > span {
+  font-weight: bold;
+  font-size: 20px;
+}

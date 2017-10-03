@@ -4,6 +4,7 @@ import is from 'gulp-if';
 import nano from 'gulp-cssnano';
 import newer from 'gulp-newer';
 import prefixer from 'gulp-autoprefixer';
+import rename from 'gulp-rename';
 import sass from 'gulp-sass';
 import sourcemaps from 'gulp-sourcemaps';
 import util from 'gulp-util';
@@ -18,6 +19,8 @@ export function stylesTask() {
         .pipe(sass(config.addons.sass)).on('error', sass.logError)
         .pipe(prefixer(config.addons.autoprefixer))
         .pipe(is(!inProduction, sourcemaps.write()))
+        .pipe(gulp.dest(config.paths.dest))
+        .pipe(is(inProduction, rename({ suffix: '.min' })))
         .pipe(is(inProduction, nano(config.addons.nano)))
         .pipe(gulp.dest(config.paths.dest))
 }
