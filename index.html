@@ -30,8 +30,13 @@
       <h3 class="header-centered">What items does simple.css have?</h3>
     </div>
 
-    <h4>Button Classes</h4>
+    <!-- 
+        Added inline styling for h4 since I don't want to clutter simple.css with
+        random css and since it looked pretty bad without margin because of the large button
+    -->
 
+    <h2>Button Classes</h2>
+    <h4 style="margin:0px">Normal buttons</h4>
     <button type="button" name="button" class="button">Default</button>
     <button type="button" name="button" class="button info">Info</button>
     <button type="button" name="button" class="button success">Success</button>
@@ -43,7 +48,21 @@
     <button type="button" name="button" class="button mini">Mini Button</button>
     <button type="button" name="button" class="button shadow">Shadow Button</button>
 
-    <h4>Alert Classes</h4>
+    <br><br>
+  
+    <h4 style="margin:0px">Filled buttons</h4>
+    <button type="button" name="button" class="button btn-filled">Default</button>
+    <button type="button" name="button" class="button btn-filled info">Info</button>
+    <button type="button" name="button" class="button btn-filled success">Success</button>
+    <button type="button" name="button" class="button btn-filled warning">Warning</button>
+    <button type="button" name="button" class="button btn-filled danger">Danger</button>
+    <button type="button" name="button" class="button btn-filled">Medium (Default)</button>
+    <button type="button" name="button" class="button btn-filled large">Large Button</button>
+    <button type="button" name="button" class="button btn-filled small">Small Button</button>
+    <button type="button" name="button" class="button btn-filled mini">Mini Button</button>
+    <button type="button" name="button" class="button btn-filled shadow">Shadow Button</button>
+
+    <h2>Alert Classes</h2>
 
     <div class="alert info">Info message<span onclick="removeAlert(this)" class="close">X</span></div>
     <div class="alert success">Successful operation message<span onclick="removeAlert(this)" class="close">X</span></div>
