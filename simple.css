@@ -19,8 +19,8 @@ button.button {
   background-color: white;
   border-style: solid;
   border-color: black;
-  border-radius: 0.5rem;
   font-size: 15px;
+  border-radius: 0.5rem;
   color: black;
 }
 button.button:hover {
