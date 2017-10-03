@@ -1,0 +1,35 @@
+{
+  "name": "simple-css",
+  "version": "0.0.1",
+  "main": "",
+  "scripts": {
+    "dev": "gulp",
+    "prod": "gulp --production",
+    "clean": "gulp clean",
+    "watch": "gulp server"
+  },
+  "keywords": [],
+  "author": "Colin Pokowitz (cpdev)",
+  "license": "MIT",
+  "description": "",
+  "devDependencies": {
+    "babel-cli": "^6.24.0",
+    "babel-core": "^6.24.0",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-preset-env": "^1.2.1",
+    "browser-sync": "^2.18.8",
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-cssnano": "^2.1.2",
+    "gulp-if": "^2.0.2",
+    "gulp-newer": "^1.3.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.4.1",
+    "gulp-tap": "^0.4.2",
+    "gulp-util": "^3.0.8",
+    "require-dir": "^0.3.1",
+    "run-sequence": "^1.2.2"
+  }
+}
