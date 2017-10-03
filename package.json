@@ -6,7 +6,8 @@
     "dev": "gulp",
     "prod": "gulp --production",
     "clean": "gulp clean",
-    "watch": "gulp server"
+    "watch": "gulp server",
+    "precommit": "npm run clean && npm run prod && git add ./dist/simple.css"
   },
   "keywords": [],
   "author": "Colin Pokowitz (cpdev)",

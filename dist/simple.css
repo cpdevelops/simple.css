@@ -13,19 +13,19 @@ body {
 button.button {
   cursor: pointer;
   padding: 12px 18px;
-  background-color: white;
+  background-color: #ffffff;
   border-style: solid;
-  border-color: black;
+  border-color: #000000;
   font-size: 15px;
   border-radius: 0.5rem;
-  color: black;
+  color: #000000;
 }
 
 button.button:hover {
   -webkit-transition: background-color 0.1s, color 0.1s;
   transition: background-color 0.1s, color 0.1s;
-  background-color: black;
-  color: white;
+  background-color: #000000;
+  color: #ffffff;
 }
 
 button.button.info {
@@ -35,7 +35,7 @@ button.button.info {
 
 button.button.info:hover {
   background-color: #007bff;
-  color: white;
+  color: #ffffff;
 }
 
 button.button.success {
@@ -45,7 +45,7 @@ button.button.success {
 
 button.button.success:hover {
   background-color: #28a745;
-  color: white;
+  color: #ffffff;
 }
 
 button.button.warning {
@@ -55,7 +55,7 @@ button.button.warning {
 
 button.button.warning:hover {
   background-color: #ffc107;
-  color: white;
+  color: #ffffff;
 }
 
 button.button.danger {
@@ -65,7 +65,7 @@ button.button.danger {
 
 button.button.danger:hover {
   background-color: #dc3545;
-  color: white;
+  color: #ffffff;
 }
 
 button.button.shadow {
@@ -88,6 +88,68 @@ button.button.small {
 
 button.button.large {
   padding: 24px 36px;
+}
+
+button.button.filled {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+button.button.filled:hover {
+  -webkit-transition: background-color 0.1s, border-color 0.1s;
+  transition: background-color 0.1s, border-color 0.1s;
+  background-color: #323232;
+  border-color: #323232;
+}
+
+button.button.filled.info {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+button.button.filled.info:hover {
+  background-color: #0062cc;
+  border-color: #0062cc;
+}
+
+button.button.filled.success {
+  background-color: #28a745;
+  border-color: #28a745;
+}
+
+button.button.filled.success:hover {
+  background-color: #208537;
+  border-color: #208537;
+}
+
+button.button.filled.warning {
+  background-color: #ffc107;
+  border-color: #ffc107;
+}
+
+button.button.filled.warning:hover {
+  background-color: #cc9a05;
+  border-color: #cc9a05;
+}
+
+button.button.filled.danger {
+  background-color: #dc3545;
+  border-color: #dc3545;
+}
+
+button.button.filled.danger:hover {
+  background-color: #b02a37;
+  border-color: #b02a37;
+}
+
+button.button.filled.shadow {
+  -webkit-box-shadow: 3px 3px #bbbbbb;
+          box-shadow: 3px 3px #bbbbbb;
+}
+
+button.button.filled.shadow:hover {
+  -webkit-box-shadow: 0 0;
+          box-shadow: 0 0;
 }
 
 div.jumbotron {
@@ -116,18 +178,35 @@ ul.dotList {
 }
 
 div.alert {
-  width: 100%;
-  text-align: left;
-  border-radius: 0.1em;
-  padding: 1px 1px 1px 1px;
+  min-height: 50px;
+  border-radius: 0.5em;
+  padding: 15px;
+  margin-bottom: 20px;
+  color: white;
 }
 
 div.alert.info {
   background-color: #007bff;
-  color: white;
 }
 
-div.alert > p > span {
+div.alert.success {
+  background-color: #28a745;
+}
+
+div.alert.warning {
+  background-color: #ffc107;
+}
+
+div.alert.error {
+  background-color: #dc3545;
+}
+
+span.close {
+  float: right;
   font-weight: bold;
-  font-size: 20px;
+  cursor: pointer;
+}
+
+span.close:hover {
+  color: #000000;
 }

@@ -1,16 +1,33 @@
 div.alert {
-  width: 100%;
-  text-align: left;
-  border-radius: 0.1em;
-  padding: 1px 1px 1px 1px;
+  min-height: 50px;
+  border-radius: 0.5em;
+  padding: 15px;
+  margin-bottom: 20px;
+  color: white;
 
   &.info {
-    background-color: #007bff;
-    color: white;
+    background-color: $info;
   }
 
-  > p > span {
-    font-weight: bold;
-    font-size: 20px;
+  &.success {
+    background-color: $success;
+  }
+
+  &.warning {
+    background-color: $warning;
+  }
+
+  &.error {
+    background-color: $error;
+  }
+}
+
+span.close {
+  float: right;
+  font-weight: bold;
+  cursor: pointer;
+
+  &:hover {
+    color:$black;
   }
 }
