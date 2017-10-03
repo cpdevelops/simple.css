@@ -28,9 +28,9 @@ Buttons can be styled by applying the 'button' class to any <button> element.
 ```
 
 There are two types of buttons as of now; filled and non-filled.
-To get a filled button we add the "btn-filled" class to our button.
+To get a filled button we add the "filled" class to our button.
 ```html
-<button type="button" name="button" class="button btn-filled">Default filled</button>
+<button type="button" name="button" class="button filled">Default filled</button>
 ```
 
 > You can also edit the appearance of your button using any of simple.css' modifier classes. For an example check out the demo page.
