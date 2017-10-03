@@ -1,1 +1,205 @@
-@import url("https://fonts.googleapis.com/css?family=Open+Sans");body{font-family:Open Sans,sans-serif}button.button{cursor:pointer;padding:12px 18px;background-color:#fff;border-style:solid;border-color:#000;font-size:15px;border-radius:.5rem;color:#000}button.button:hover{transition:background-color .1s,color .1s;background-color:#000;color:#fff}button.button.info{color:#007bff;border-color:#007bff}button.button.info:hover{background-color:#007bff;color:#fff}button.button.success{color:#28a745;border-color:#28a745}button.button.success:hover{background-color:#28a745;color:#fff}button.button.warning{color:#ffc107;border-color:#ffc107}button.button.warning:hover{background-color:#ffc107;color:#fff}button.button.danger{color:#dc3545;border-color:#dc3545}button.button.danger:hover{background-color:#dc3545;color:#fff}button.button.shadow{box-shadow:3px 3px #888}button.button.shadow:hover{box-shadow:0 0}button.button.mini{padding:2px 5px}button.button.small{padding:6px 9px}button.button.large{padding:24px 36px}button.button.filled{background-color:#000;color:#fff}button.button.filled:hover{transition:background-color .1s,border-color .1s;background-color:#323232;border-color:#323232}button.button.filled.info{background-color:#007bff;border-color:#007bff}button.button.filled.info:hover{background-color:#0062cc;border-color:#0062cc}button.button.filled.success{background-color:#28a745;border-color:#28a745}button.button.filled.success:hover{background-color:#208537;border-color:#208537}button.button.filled.warning{background-color:#ffc107;border-color:#ffc107}button.button.filled.warning:hover{background-color:#cc9a05;border-color:#cc9a05}button.button.filled.danger{background-color:#dc3545;border-color:#dc3545}button.button.filled.danger:hover{background-color:#b02a37;border-color:#b02a37}button.button.filled.shadow{box-shadow:3px 3px #bbb}button.button.filled.shadow:hover{box-shadow:0 0}div.jumbotron{background-color:#b3b7ba;border-radius:5px;padding:20px}div.jumbotron>h1{font-size:50px;text-align:center}div.jumbotron>p{font-size:25px}.header-centered,div.jumbotron>p{text-align:center}ul.dotList{list-style-type:disc}div.alert{min-height:50px;border-radius:.5em;padding:15px;margin-bottom:20px;color:#fff}div.alert.info{background-color:#007bff}div.alert.success{background-color:#28a745}div.alert.warning{background-color:#ffc107}div.alert.error{background-color:#dc3545}span.close{float:right;font-weight:700;cursor:pointer}span.close:hover{color:#000}
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+button.button {
+  cursor: pointer;
+  padding: 12px 18px;
+  background-color: #ffffff;
+  border-style: solid;
+  border-color: #000000;
+  font-size: 15px;
+  border-radius: 0.5rem;
+  color: #000000;
+}
+
+button.button:hover {
+  -webkit-transition: background-color 0.1s, color 0.1s;
+  transition: background-color 0.1s, color 0.1s;
+  background-color: #000000;
+  color: #ffffff;
+}
+
+button.button.info {
+  color: #007bff;
+  border-color: #007bff;
+}
+
+button.button.info:hover {
+  background-color: #007bff;
+  color: #ffffff;
+}
+
+button.button.success {
+  color: #28a745;
+  border-color: #28a745;
+}
+
+button.button.success:hover {
+  background-color: #28a745;
+  color: #ffffff;
+}
+
+button.button.warning {
+  color: #ffc107;
+  border-color: #ffc107;
+}
+
+button.button.warning:hover {
+  background-color: #ffc107;
+  color: #ffffff;
+}
+
+button.button.danger {
+  color: #dc3545;
+  border-color: #dc3545;
+}
+
+button.button.danger:hover {
+  background-color: #dc3545;
+  color: #ffffff;
+}
+
+button.button.shadow {
+  -webkit-box-shadow: 3px 3px #888888;
+          box-shadow: 3px 3px #888888;
+}
+
+button.button.shadow:hover {
+  -webkit-box-shadow: 0 0;
+          box-shadow: 0 0;
+}
+
+button.button.mini {
+  padding: 2px 5px;
+}
+
+button.button.small {
+  padding: 6px 9px;
+}
+
+button.button.large {
+  padding: 24px 36px;
+}
+
+button.button.filled {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+button.button.filled:hover {
+  -webkit-transition: background-color 0.1s, border-color 0.1s;
+  transition: background-color 0.1s, border-color 0.1s;
+  background-color: #323232;
+  border-color: #323232;
+}
+
+button.button.filled.info {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+button.button.filled.info:hover {
+  background-color: #0062cc;
+  border-color: #0062cc;
+}
+
+button.button.filled.success {
+  background-color: #28a745;
+  border-color: #28a745;
+}
+
+button.button.filled.success:hover {
+  background-color: #208537;
+  border-color: #208537;
+}
+
+button.button.filled.warning {
+  background-color: #ffc107;
+  border-color: #ffc107;
+}
+
+button.button.filled.warning:hover {
+  background-color: #cc9a05;
+  border-color: #cc9a05;
+}
+
+button.button.filled.danger {
+  background-color: #dc3545;
+  border-color: #dc3545;
+}
+
+button.button.filled.danger:hover {
+  background-color: #b02a37;
+  border-color: #b02a37;
+}
+
+button.button.filled.shadow {
+  -webkit-box-shadow: 3px 3px #bbbbbb;
+          box-shadow: 3px 3px #bbbbbb;
+}
+
+button.button.filled.shadow:hover {
+  -webkit-box-shadow: 0 0;
+          box-shadow: 0 0;
+}
+
+div.jumbotron {
+  background-color: #b3b7ba;
+  /*width: 100%;*/
+  border-radius: 5px;
+  padding: 20px 20px 20px 20px;
+}
+
+div.jumbotron > h1 {
+  font-size: 50px;
+  text-align: center;
+}
+
+div.jumbotron > p {
+  text-align: center;
+  font-size: 25px;
+}
+
+.header-centered {
+  text-align: center;
+}
+
+ul.dotList {
+  list-style-type: disc;
+}
+
+div.alert {
+  min-height: 50px;
+  border-radius: 0.5em;
+  padding: 15px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+div.alert.info {
+  background-color: #007bff;
+}
+
+div.alert.success {
+  background-color: #28a745;
+}
+
+div.alert.warning {
+  background-color: #ffc107;
+}
+
+div.alert.error {
+  background-color: #dc3545;
+}
+
+span.close {
+  float: right;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+span.close:hover {
+  color: #000000;
+}

@@ -1,36 +1,35 @@
 <p align="center">
-  <img src="logo.png">  
+  <a href="http://cpdev.me/simple.css/">
+    <img src="logo.png" alt="simple.css Logo" />
+  </a>
 </p>
 
-# simple.css
-simple.css is a simple CSS framework designed to be easy to work with and edit. It is completely
-open source and free for anyone to use.
+### About
+Simple.css is a simple CSS framework designed to be easy to work with and edit. It is entirely open source and free for anyone to use. It is currently in development; however, if you'd like to follow its progress you can do so [here](http://cpdev.me/simple.css/).
 
-Simple.css is currently in development however if you'd like to follow it's progress you can do so [here](http://cpdev.me/simple.css/).
 ### Development
-To help out with simple.css, follow these steps.
+To help out with Simple.css, follow these steps:
 
-Clone the repository using ```git clone https://github.com/cpdevelops/simple.css.git```
-
-Make any modifications you feel are necessary, or find modifications using the issues tab on our Github page.
-
-Once you are done, make a pull request on Github and I will review it to make the necessary changes.
+- Clone the repository using `git clone https://github.com/cpdevelops/simple.css.git`
+- Make any modifications you feel are necessary, or find modifications using the issues tab on our GitHub page.
+- Once you are done, make a pull request on GitHub and I will review it to make the necessary changes.
 
 Happy coding!
+
 ### Components
-simple.css currently contains the following components.
-* Buttons
+List of components can be found [here](https://github.com/cpdevelops/simple.css/tree/master/src/components)
 
-#### Buttons
-Buttons can be styled by applying the 'button' class to any <button> element.
+##### Button Component
+Buttons can be styled by applying the `button` class to any `<button>` element.
+
 ```html
-<button type="button" name="button" class="button">Default</button>
+<button type="button" class="button">Default</button>
 ```
 
-There are two types of buttons as of now; filled and non-filled.
-To get a filled button we add the "filled" class to our button.
+There are two types of buttons as of now; filled and non-filled. To get a filled button we add the "filled" class to our button.
+
 ```html
-<button type="button" name="button" class="button filled">Default filled</button>
+<button type="button" class="button filled">Default filled</button>
 ```
 
-> You can also edit the appearance of your button using any of simple.css' modifier classes. For an example check out the demo page.
+> You can also edit the appearance of your button using any of Simple.css' modifier classes. For example, check out the demo page.

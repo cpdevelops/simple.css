@@ -1,11 +1,20 @@
-Thanks for wanting to contribute to simple.css. Here is how to contribute:
+Thank you for considering to contribute to Simple.css framework. Following steps will get you started:
 
-- Fork the repository, clone it to your computer, and make whatever changes you think are necessary.
-- Head back to the main repository and create a detailed pull request with the number of the issue you are fixing.
-- I will review your pull request, ask for any changes necessary, and then you can continue fixing issues.
+Prerequisites:
+- Install Node and NPM on your machine
 
-You can also help out by creating issues, adding to the README, and helping to improve the demo site.
 
-There is always a ton to help work on on this project, so come and help.
+Guide:
+- Fork this repository
+- Clone it from your account
+- In your Terminal/Command Line run a command `npm install`
+- Once it completes installing development dependencies, run a command `npm run dev && npm run watch`, this will compile it for the first time for development and watch for further changes. It will also boot up a host
+- Make desired changes that are related to your contribution
+- Once you are done with those changes, before you commit them, make sure to run a command `npm run prod`; to build everything up for production
+- Push those changes to your GitHub and create a pull request. Try to leave as much detail as possible and if it's an issue related fix, make sure to tag the issue that your contribution is resolving
+- Repository owner will review your pull request, ask for any changes if neccessery before merging your pull request
+
+Extras:
+You may also help out, by finding some problems and opening an issue related to your findings, improve README, CONTRIBUTING, ISSUE_TEMPLATE, PULL_REQUEST_TEMPLATE or even help improving Simple.css' website.
 
 Happy coding!
