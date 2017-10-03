@@ -94,6 +94,24 @@ div.jumbotron > p {
 .headerCentered {
   text-align: center;
 }
+
+/* Lists */
 ul.dotList {
   list-style-type: disc;
+}
+
+/* Alerts */
+div.alert {
+  width: 100%;
+  text-align: left;
+  border-radius: 0.1em;
+  padding: 1px 1px 1px 1px;
+}
+div.alert.info {
+  background-color: #007bff;
+  color: white;
+}
+div.alert > p > span {
+  font-weight: bold;
+  font-size: 20px;
 }
