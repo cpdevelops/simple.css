@@ -7,7 +7,16 @@ simple.css is a simple CSS framework designed to be easy to work with and edit. 
 open source and free for anyone to use.
 
 Simple.css is currently in development however if you'd like to follow it's progress you can do so [here](http://cpdev.me/simple.css/).
+### Development
+To help out with simple.css, follow these steps.
 
+Clone the repository using ```git clone https://github.com/cpdevelops/simple.css.git```
+
+Make any modifications you feel are necessary, or find modifications using the issues tab on our Github page.
+
+Once you are done, make a pull request on Github and I will review it to make the necessary changes.
+
+Happy coding!
 ### Components
 simple.css currently contains the following components.
 * Buttons
