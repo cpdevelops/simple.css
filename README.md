@@ -33,3 +33,21 @@ There are two types of buttons as of now; filled and non-filled. To get a filled
 ```
 
 > You can also edit the appearance of your button using any of Simple.css' modifier classes. For example, check out the demo page.
+
+##### Alert Component
+You can create styled alerts by applying the `alert` class to any `<div>` element.
+
+There are currently four `alert` styles: info, success, warning, and error.
+
+```html
+<div class="alert info">Info message</div>
+```
+```html
+<div class="alert success">Successful operation message</div>
+```
+```html
+<div class="alert warning">Warning message</div>
+```
+```html
+<div class="alert error">Error message</div>
+```
