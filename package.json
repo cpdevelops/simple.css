@@ -31,6 +31,7 @@
     "gulp-sourcemaps": "^2.6.1",
     "gulp-tap": "^1.0.1",
     "gulp-util": "^3.0.8",
+    "husky": "^0.14.3",
     "require-dir": "^0.3.2",
     "run-sequence": "^2.2.0"
   }

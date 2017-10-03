@@ -10,12 +10,9 @@ Simple.css is a simple CSS framework designed to be easy to work with and edit. 
 ### Development
 To help out with Simple.css, follow these steps:
 
-- Clone the repository using 
-`git clone https://github.com/cpdevelops/simple.css.git`
-
-Make any modifications you feel are necessary, or find modifications using the issues tab on our GitHub page.
-
-Once you are done, make a pull request on GitHub and I will review it to make the necessary changes.
+- Clone the repository using `git clone https://github.com/cpdevelops/simple.css.git`
+- Make any modifications you feel are necessary, or find modifications using the issues tab on our GitHub page.
+- Once you are done, make a pull request on GitHub and I will review it to make the necessary changes.
 
 Happy coding!
 
