@@ -15,6 +15,7 @@ body {
 
 /* Buttons */
 button.button {
+  cursor: pointer;
   padding: 12px 18px;
   background-color: white;
   border-style: solid;
