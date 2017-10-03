@@ -1,61 +1,63 @@
+@import '../_variables.scss';
+
 button.button {
   cursor: pointer;
   padding: 12px 18px;
-  background-color: white;
+  background-color: $white;
   border-style: solid;
-  border-color: black;
+  border-color: $black;
   font-size: 15px;
   border-radius: 0.5rem;
-  color: black;
+  color: $black;
 
   &:hover {
     transition: background-color 0.1s, color 0.1s;
-    background-color: black;
-    color: white;
+    background-color: $black;
+    color: $white;
   }
 
   &.info {
-    color: #007bff;
-    border-color: #007bff;
+    color: $info;
+    border-color: $info;
 
     &:hover {
-      background-color: #007bff;
-      color: white;
+      background-color: $info;
+      color: $white;
     }
   }
 
   &.success {
-    color: #28a745;
-    border-color: #28a745;
+    color: $success;
+    border-color: $success;
 
     &:hover {
-      background-color: #28a745;
-      color: white;
+      background-color: $success;
+      color: $white;
     }
   }
 
   &.warning {
-    color: #ffc107;
-    border-color: #ffc107;
+    color: $warning;
+    border-color: $warning;
 
     &:hover {
-      background-color: #ffc107;
-      color: white;
+      background-color: $warning;
+      color: $white;
     }
   }
 
   &.danger {
-    color: #dc3545;
-    border-color: #dc3545;
+    color: $error;
+    border-color: $error;
 
     &:hover {
-      background-color: #dc3545;
-      color: white;
+      background-color: $error;
+      color: $white;
     }
   }
 
   &.shadow {
-    box-shadow: 3px 3px #888888;
+    box-shadow: 3px 3px $dark-gray;
 
     &:hover{
       box-shadow: 0 0;
