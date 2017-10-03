@@ -57,7 +57,7 @@ button.button {
   }
 
   &.shadow {
-    box-shadow: 3px 3px $dark-gray;
+    box-shadow: 3px 3px $medium-gray;
 
     &:hover{
       box-shadow: 0 0;
@@ -75,4 +75,65 @@ button.button {
   &.large {
     padding: 24px 36px;
   }
+}
+
+button.button.filled
+{
+  background-color: $black;
+  color: $white;
+
+  &:hover {
+    transition: background-color 0.1s, border-color 0.1s;
+    background-color: $dark-gray;
+    border-color: $dark-gray;
+  }
+
+  &.info {
+    background-color: $info;
+    border-color: $info;
+
+    &:hover {
+      background-color: $info-dark;
+      border-color: $info-dark;
+    }
+  }
+
+  &.success {
+    background-color: $success;
+    border-color: $success;
+
+    &:hover {
+      background-color: $success-dark;
+      border-color: $success-dark;
+    }
+  }
+
+  &.warning {
+    background-color: $warning;
+    border-color: $warning;
+
+    &:hover {
+      background-color: $warning-dark;
+      border-color: $warning-dark;
+    }
+  }
+
+  &.danger {
+    background-color: $error;
+    border-color: $error;
+
+    &:hover {
+      background-color: $danger-dark;
+      border-color: $danger-dark;
+    }
+  }
+
+  &.shadow
+  {
+    box-shadow: 3px 3px $light-gray;
+
+    &:hover{
+      box-shadow: 0 0;
+    }
+  }  
 }
