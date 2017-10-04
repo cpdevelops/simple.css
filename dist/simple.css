@@ -145,6 +145,15 @@ button.button.filled.shadow:hover {
           box-shadow: 0 0;
 }
 
+
+
+
+button.button.disabled {
+  cursor: not-allowed;
+  opacity: .65;
+}
+
+
 div.jumbotron {
   background-color: #b3b7ba;
   /*width: 100%;*/
