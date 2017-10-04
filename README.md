@@ -1,6 +1,6 @@
 <p align="center">
   <a href="http://cpdev.me/simple.css/">
-    <img src="logo.png" alt="simple.css Logo" />
+    <img src="logo.svg" width="40%" alt="simple.css Logo" />
   </a>
 </p>
 
