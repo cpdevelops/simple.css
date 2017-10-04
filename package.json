@@ -1,7 +1,7 @@
 {
   "name": "simple_css",
   "version": "0.0.2",
-  "main": "",
+  "main": "dist/simple.min.css",
   "scripts": {
     "dev": "gulp",
     "prod": "gulp --production",
@@ -9,7 +9,13 @@
     "watch": "gulp server",
     "precommit": "npm run clean && npm run prod && git add ./dist/simple.css"
   },
-  "keywords": ["css","framework","simple.css","opensource","web development"],
+  "keywords": [
+    "css",
+    "framework",
+    "simple.css",
+    "opensource",
+    "web development"
+  ],
   "author": "Colin Pokowitz (cpdev)",
   "license": "MIT",
   "description": "",
