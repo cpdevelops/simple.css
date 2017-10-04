@@ -1,7 +1,13 @@
+/*
+ * Welcome to simple.css
+ * Simple.css is a CSS framework designed to be simple to use and edit
+ *
+ * Designed by Colin Pokowitz (cpdev) - Written in 2017
+ * MIT Licence
+ */
 @import url("https://fonts.googleapis.com/css?family=Open+Sans");
 body {
-  font-family: 'Open Sans', sans-serif;
-}
+  font-family: 'Open Sans', sans-serif; }
 
 button.button {
   cursor: pointer;
@@ -11,195 +17,147 @@ button.button {
   border-color: #000000;
   font-size: 15px;
   border-radius: 0.5rem;
-  color: #000000;
-}
-
-button.button:hover {
-  -webkit-transition: background-color 0.1s, color 0.1s;
-  transition: background-color 0.1s, color 0.1s;
-  background-color: #000000;
-  color: #ffffff;
-}
-
-button.button.info {
-  color: #007bff;
-  border-color: #007bff;
-}
-
-button.button.info:hover {
-  background-color: #007bff;
-  color: #ffffff;
-}
-
-button.button.success {
-  color: #28a745;
-  border-color: #28a745;
-}
-
-button.button.success:hover {
-  background-color: #28a745;
-  color: #ffffff;
-}
-
-button.button.warning {
-  color: #ffc107;
-  border-color: #ffc107;
-}
-
-button.button.warning:hover {
-  background-color: #ffc107;
-  color: #ffffff;
-}
-
-button.button.danger {
-  color: #dc3545;
-  border-color: #dc3545;
-}
-
-button.button.danger:hover {
-  background-color: #dc3545;
-  color: #ffffff;
-}
-
-button.button.shadow {
-  -webkit-box-shadow: 3px 3px #888888;
-          box-shadow: 3px 3px #888888;
-}
-
-button.button.shadow:hover {
-  -webkit-box-shadow: 0 0;
-          box-shadow: 0 0;
-}
-
-button.button.mini {
-  padding: 2px 5px;
-}
-
-button.button.small {
-  padding: 6px 9px;
-}
-
-button.button.large {
-  padding: 24px 36px;
-}
+  color: #000000; }
+  button.button:hover {
+    transition: background-color 0.1s, color 0.1s;
+    background-color: #000000;
+    color: #ffffff; }
+  button.button.info {
+    color: #007bff;
+    border-color: #007bff; }
+    button.button.info:hover {
+      background-color: #007bff;
+      color: #ffffff; }
+  button.button.success {
+    color: #28a745;
+    border-color: #28a745; }
+    button.button.success:hover {
+      background-color: #28a745;
+      color: #ffffff; }
+  button.button.warning {
+    color: #ffc107;
+    border-color: #ffc107; }
+    button.button.warning:hover {
+      background-color: #ffc107;
+      color: #ffffff; }
+  button.button.danger {
+    color: #dc3545;
+    border-color: #dc3545; }
+    button.button.danger:hover {
+      background-color: #dc3545;
+      color: #ffffff; }
+  button.button.shadow {
+    box-shadow: 3px 3px #888888; }
+    button.button.shadow:hover {
+      box-shadow: 0 0; }
+  button.button.mini {
+    padding: 2px 5px; }
+  button.button.small {
+    padding: 6px 9px; }
+  button.button.large {
+    padding: 24px 36px; }
 
 button.button.filled {
   background-color: #000000;
-  color: #ffffff;
-}
-
-button.button.filled:hover {
-  -webkit-transition: background-color 0.1s, border-color 0.1s;
-  transition: background-color 0.1s, border-color 0.1s;
-  background-color: #323232;
-  border-color: #323232;
-}
-
-button.button.filled.info {
-  background-color: #007bff;
-  border-color: #007bff;
-}
-
-button.button.filled.info:hover {
-  background-color: #0062cc;
-  border-color: #0062cc;
-}
-
-button.button.filled.success {
-  background-color: #28a745;
-  border-color: #28a745;
-}
-
-button.button.filled.success:hover {
-  background-color: #208537;
-  border-color: #208537;
-}
-
-button.button.filled.warning {
-  background-color: #ffc107;
-  border-color: #ffc107;
-}
-
-button.button.filled.warning:hover {
-  background-color: #cc9a05;
-  border-color: #cc9a05;
-}
-
-button.button.filled.danger {
-  background-color: #dc3545;
-  border-color: #dc3545;
-}
-
-button.button.filled.danger:hover {
-  background-color: #b02a37;
-  border-color: #b02a37;
-}
-
-button.button.filled.shadow {
-  -webkit-box-shadow: 3px 3px #bbbbbb;
-          box-shadow: 3px 3px #bbbbbb;
-}
-
-button.button.filled.shadow:hover {
-  -webkit-box-shadow: 0 0;
-          box-shadow: 0 0;
-}
+  color: #ffffff; }
+  button.button.filled:hover {
+    transition: background-color 0.1s, border-color 0.1s;
+    background-color: #323232;
+    border-color: #323232; }
+  button.button.filled.info {
+    background-color: #007bff;
+    border-color: #007bff; }
+    button.button.filled.info:hover {
+      background-color: #0062cc;
+      border-color: #0062cc; }
+  button.button.filled.success {
+    background-color: #28a745;
+    border-color: #28a745; }
+    button.button.filled.success:hover {
+      background-color: #208537;
+      border-color: #208537; }
+  button.button.filled.warning {
+    background-color: #ffc107;
+    border-color: #ffc107; }
+    button.button.filled.warning:hover {
+      background-color: #cc9a05;
+      border-color: #cc9a05; }
+  button.button.filled.danger {
+    background-color: #dc3545;
+    border-color: #dc3545; }
+    button.button.filled.danger:hover {
+      background-color: #b02a37;
+      border-color: #b02a37; }
+  button.button.filled.shadow {
+    box-shadow: 3px 3px #bbbbbb; }
+    button.button.filled.shadow:hover {
+      box-shadow: 0 0; }
 
 div.jumbotron {
   background-color: #b3b7ba;
   /*width: 100%;*/
   border-radius: 5px;
-  padding: 20px 20px 20px 20px;
-}
-
-div.jumbotron > h1 {
-  font-size: 50px;
-  text-align: center;
-}
-
-div.jumbotron > p {
-  text-align: center;
-  font-size: 25px;
-}
+  padding: 20px 20px 20px 20px; }
+  div.jumbotron > h1 {
+    font-size: 50px;
+    text-align: center; }
+  div.jumbotron > p {
+    text-align: center;
+    font-size: 25px; }
 
 .header-centered {
-  text-align: center;
-}
+  text-align: center; }
 
 ul.dotList {
-  list-style-type: disc;
-}
+  list-style-type: disc; }
 
 div.alert {
   min-height: 50px;
   border-radius: 0.5em;
   padding: 15px;
   margin-bottom: 20px;
-  color: white;
-}
-
-div.alert.info {
-  background-color: #007bff;
-}
-
-div.alert.success {
-  background-color: #28a745;
-}
-
-div.alert.warning {
-  background-color: #ffc107;
-}
-
-div.alert.error {
-  background-color: #dc3545;
-}
+  color: white; }
+  div.alert.info {
+    background-color: #007bff; }
+  div.alert.success {
+    background-color: #28a745; }
+  div.alert.warning {
+    background-color: #ffc107; }
+  div.alert.error {
+    background-color: #dc3545; }
 
 span.close {
   float: right;
   font-weight: bold;
-  cursor: pointer;
-}
+  cursor: pointer; }
+  span.close:hover {
+    color: #000000; }
 
-span.close:hover {
-  color: #000000;
-}
+div.column {
+  float: left; }
+  div.column.column-1 {
+    width: 8.333%; }
+  div.column.column-2 {
+    width: 16.667%; }
+  div.column.column-3 {
+    width: 25%; }
+  div.column.column-4 {
+    width: 33.333%; }
+  div.column.column-5 {
+    width: 41.667%; }
+  div.column.column-6 {
+    width: 50%; }
+  div.column.column-7 {
+    width: 58.333%; }
+  div.column.column-8 {
+    width: 66.667%; }
+  div.column.column-9 {
+    width: 75%; }
+  div.column.column-10 {
+    width: 83.333%; }
+  div.column.column-11 {
+    width: 91.667%; }
+  div.column.column-12 {
+    width: 100%; }
+
+/*# sourceMappingURL=simple.css.map */
