@@ -71,6 +71,11 @@ button.button.shadow:hover {
           box-shadow: 0 0;
 }
 
+
+button.button.disabled {
+      cursor: not-allowed;
+      opacity: .65;
+   }
 button.button.mini {
   padding: 2px 5px;
 }
@@ -144,6 +149,15 @@ button.button.filled.shadow:hover {
   -webkit-box-shadow: 0 0;
           box-shadow: 0 0;
 }
+
+
+
+
+button.button.filled.disabled {
+  cursor: not-allowed;
+  opacity: .65;
+}
+
 
 div.jumbotron {
   background-color: #b3b7ba;
