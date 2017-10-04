@@ -1,11 +1,14 @@
 @import '../_variables.scss';
+@import '../_animations.scss'; 
 
 div.alert {
+  position: relative;
   min-height: 50px;
   border-radius: 0.5em;
-  padding: 15px;
+  padding: 20px;
   margin-bottom: 20px;
   color: white;
+  word-break: break-word;
 
   &.info {
     background-color: $info;
@@ -25,6 +28,9 @@ div.alert {
 }
 
 span.close {
+  position: absolute;
+  top: 3px;
+  right: 9px;
   float: right;
   font-weight: bold;
   cursor: pointer;

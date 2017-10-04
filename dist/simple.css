@@ -1,4 +1,44 @@
+/*
+ * Welcome to simple.css
+ * Simple.css is a CSS framework designed to be simple to use and edit
+ *
+ * Designed by Colin Pokowitz (cpdev) - Written in 2017
+ * MIT Licence
+ */
+/*Animation Keyframes*/
 @import url("https://fonts.googleapis.com/css?family=Open+Sans");
+@-webkit-keyframes closeAlert {
+  from {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+    opacity: 1;
+  }
+  to {
+    -webkit-transform: translateY(5px);
+            transform: translateY(5px);
+    opacity: 0;
+  }
+}
+@keyframes closeAlert {
+  from {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+    opacity: 1;
+  }
+  to {
+    -webkit-transform: translateY(5px);
+            transform: translateY(5px);
+    opacity: 0;
+  }
+}
+
+.animate-close-alert {
+  -webkit-animation-name: closeAlert;
+          animation-name: closeAlert;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+}
+
 body {
   font-family: 'Open Sans', sans-serif;
 }
@@ -170,12 +210,35 @@ ul.dotList {
   list-style-type: disc;
 }
 
+/*Animation Keyframes*/
+@keyframes closeAlert {
+  from {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+    opacity: 1;
+  }
+  to {
+    -webkit-transform: translateY(5px);
+            transform: translateY(5px);
+    opacity: 0;
+  }
+}
+
+.animate-close-alert {
+  -webkit-animation-name: closeAlert;
+          animation-name: closeAlert;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+}
+
 div.alert {
+  position: relative;
   min-height: 50px;
   border-radius: 0.5em;
-  padding: 15px;
+  padding: 20px;
   margin-bottom: 20px;
   color: white;
+  word-break: break-word;
 }
 
 div.alert.info {
@@ -195,6 +258,9 @@ div.alert.error {
 }
 
 span.close {
+  position: absolute;
+  top: 3px;
+  right: 9px;
   float: right;
   font-weight: bold;
   cursor: pointer;

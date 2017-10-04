@@ -71,7 +71,10 @@
 
     <script>
       function removeAlert(e) {
-          e.parentNode.parentNode.removeChild(e.parentNode);
+          e.parentNode.classList.add('animate-close-alert'); 
+          setTimeout(function() {
+            e.parentNode.remove();
+          }, 1000); 
       }
     </script>
   </body>
