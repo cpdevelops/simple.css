@@ -9,7 +9,7 @@
     "watch": "gulp server",
     "precommit": "npm run clean && npm run prod && git add ./dist/simple.css"
   },
-  "keywords": [],
+  "keywords": ["css","framework","simple.css","opensource","web development"],
   "author": "Colin Pokowitz (cpdev)",
   "license": "MIT",
   "description": "",
