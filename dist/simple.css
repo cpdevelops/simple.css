@@ -133,31 +133,35 @@ span.close {
   span.close:hover {
     color: #000000; }
 
-div.column {
-  float: left; }
-  div.column.column-1 {
-    width: 8.333%; }
-  div.column.column-2 {
-    width: 16.667%; }
-  div.column.column-3 {
-    width: 25%; }
-  div.column.column-4 {
-    width: 33.333%; }
-  div.column.column-5 {
-    width: 41.667%; }
-  div.column.column-6 {
-    width: 50%; }
-  div.column.column-7 {
-    width: 58.333%; }
-  div.column.column-8 {
-    width: 66.667%; }
-  div.column.column-9 {
-    width: 75%; }
-  div.column.column-10 {
-    width: 83.333%; }
-  div.column.column-11 {
-    width: 91.667%; }
-  div.column.column-12 {
-    width: 100%; }
+div.row {
+  width: 100%; }
+  div.row > .column {
+    float: left;
+    border: 1px solid #000;
+    padding: 20px; }
+    div.row > .column.column-1 {
+      width: calc(8.333% - 20px); }
+    div.row > .column.column-2 {
+      width: calc(16.667% - 20px); }
+    div.row > .column.column-3 {
+      width: calc(25% - 20px); }
+    div.row > .column.column-4 {
+      width: calc(33.333% - 20px); }
+    div.row > .column.column-5 {
+      width: calc(41.667% - 20px); }
+    div.row > .column.column-6 {
+      width: calc(50% - 20px); }
+    div.row > .column.column-7 {
+      width: calc(58.333% - 20px); }
+    div.row > .column.column-8 {
+      width: calc(66.667% - 20px); }
+    div.row > .column.column-9 {
+      width: calc(75% - 20px); }
+    div.row > .column.column-10 {
+      width: calc(83.333% - 20px); }
+    div.row > .column.column-11 {
+      width: calc(91.667% - 20px); }
+    div.row > .column.column-12 {
+      width: calc(100% - 20px); }
 
 /*# sourceMappingURL=simple.css.map */

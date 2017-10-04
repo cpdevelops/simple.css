@@ -1,0 +1,60 @@
+@import '../_variables.scss';
+
+
+div.row {
+    width: 100%;
+    
+    > .column {
+      float: left;
+      border: 1px solid #000;
+      padding: $column-padding;
+      
+      &.column-1 {
+        width: $one-width;
+      }
+      
+      &.column-2 {
+        width: $two-width;
+      }
+      
+      &.column-3 {
+        width: $three-width;
+      }
+      
+      &.column-4 {
+        width: $four-width;
+      }
+      
+      &.column-5 {
+        width: $five-width;
+      }
+      
+      &.column-6 {
+        width: $six-width;
+      }
+      
+      &.column-7 {
+        width: $seven-width;
+      }
+      
+      &.column-8 {
+        width: $eight-width;
+      }
+      
+      &.column-9 {
+        width: $nine-width;
+      }
+      
+      &.column-10 {
+        width: $ten-width;
+      }
+      
+      &.column-11 {
+        width: $eleven-width;
+      }
+      
+      &.column-12 {
+        width: $twelve-width;
+      }
+  }
+}
