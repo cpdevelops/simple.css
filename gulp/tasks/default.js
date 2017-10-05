@@ -5,7 +5,8 @@ export function defaultTask(cb) {
     sequence(
         'clean',
         [
-            'styles'
+            'styles',
+            'scripts'
         ]
     , cb);
 }

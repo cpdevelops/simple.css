@@ -1,0 +1,8 @@
+.close {
+  cursor: pointer;
+  font-size: 1.4em;
+
+  &:before {
+    content: "\00d7";
+  }
+}

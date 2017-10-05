@@ -73,12 +73,11 @@ button.button {
   &.large {
     padding: 24px 36px;
   }
-    
-    &.disabled {
-      cursor: not-allowed;
-      opacity: .65;
-   }
-    
+
+  &.disabled {
+    cursor: not-allowed;
+    opacity: .65;
+  }
 }
 
 button.button.filled {
@@ -138,10 +137,9 @@ button.button.filled {
       box-shadow: 0 0;
     }
   }
-    
-    
-    &.disabled {
-      cursor: not-allowed;
-      opacity: .65;
-   }
+
+  &.disabled {
+    cursor: not-allowed;
+    opacity: .65;
+  }
 }
