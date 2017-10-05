@@ -7,7 +7,7 @@
     "prod": "gulp --production",
     "clean": "gulp clean",
     "watch": "gulp server",
-    "precommit": "npm run clean && npm run prod && git add ./dist/simple.css"
+    "precommit": "npm run clean && npm run prod && git add ."
   },
   "keywords": [
     "css",
