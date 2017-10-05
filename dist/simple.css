@@ -615,10 +615,13 @@ div.jumbotron {
   padding: 20px 20px 20px 20px;
 }
 
+/* not required as of now since at present we dont have <h1></h1> inside jumbotron
+
 div.jumbotron > h1 {
   font-size: 50px;
   text-align: center;
 }
+*/
 
 div.jumbotron > p {
   text-align: center;
