@@ -43,17 +43,30 @@ There are two types of buttons as of now; filled and non-filled. To get a filled
 ##### Alert Component
 You can create styled alerts by applying the `alert` class to any `<div>` element.
 
-There are currently four `alert` styles: info, success, warning, and error.
+There are currently four `alert` styles: `info`, `success`, `warning`, and `error`.
+
+If you add `<span class="close"></span>` inside of `<div class="alert" />` component, it will become closable by user interaction.
 
 ```html
-<div class="alert info">Info message</div>
+<!-- Sample info alert component. Apply different modifier class for different color variation -->
+
+<div class="alert info">
+  <div class="content">
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque a error tenetur quo expedita pariatur soluta modi mollitia. Deserunt voluptas repellendus, sint sunt voluptatem doloremque repellat iure modi eius libero!
+  </div>
+
+  <span class="close"></span>
+</div>
 ```
+
 ```html
-<div class="alert success">Successful operation message</div>
-```
-```html
-<div class="alert warning">Warning message</div>
-```
-```html
-<div class="alert error">Error message</div>
+<!-- Want close on the other side? No problems, move the `span.close` before `div.content` -->
+
+<div class="alert info">
+  <span class="close"></span>
+
+  <div class="content">
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque a error tenetur quo expedita pariatur soluta modi mollitia. Deserunt voluptas repellendus, sint sunt voluptatem doloremque repellat iure modi eius libero!
+  </div>
+</div>
 ```

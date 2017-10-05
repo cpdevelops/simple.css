@@ -2,21 +2,45 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
     <title>Simple.css</title>
 
     <link rel="stylesheet" href="dist/simple.css">
+    <style>
+        /* Demo Related only */
+        .logo {
+          background-image: url(./logo.svg);
+          background-repeat: no-repeat;
+          width: 200px;
+          height: 127px;
+          margin: auto;
+          display: block;
+          text-indent: -99999px;
+        }
+
+        @media (min-width: 768px) {
+          .logo {
+            width: 260px;
+            height: 165px;
+            margin: auto;
+          }
+        }
+    </style>
   </head>
 
   <body>
     <div class="jumbotron">
-      <div align="center">
-        <img src="logo.svg" alt="logo">
-      </div>
+      <a href="/" class="logo">
+        Simple.css Logo
+      </a>
+    
       <p>A simple css framework.</p>
     </div>
 
-    <h2 class="header-centered">Simple.css is a simple CSS framework
-    designed to be easy to use and edit. Try it out yourself!</h2>
+    <h2 class="header-centered">
+      Simple.css is a simple CSS framework designed to be easy to use and edit. Try it out yourself!
+    </h2>
 
     <div align="center">
       <table>
@@ -27,16 +51,18 @@
         </tr>
       </table>
 
-      <h3 class="header-centered">What items does simple.css have?</h3> 
+      <h3>What items does simple.css have?</h3>
     </div>
 
-    <!-- 
+    <!--
         Added inline styling for h4 since I don't want to clutter simple.css with
         random css and since it looked pretty bad without margin because of the large button
     -->
 
     <h2>Button Classes</h2>
+
     <h4 style="margin:0px">Normal buttons</h4>
+
     <button type="button" name="button" class="button">Default</button>
     <button type="button" name="button" class="button info">Info</button>
     <button type="button" name="button" class="button success">Success</button>
@@ -46,11 +72,11 @@
     <button type="button" name="button" class="button large">Large Button</button>
     <button type="button" name="button" class="button small">Small Button</button>
     <button type="button" name="button" class="button mini">Mini Button</button>
-    <button type="button" name="button" class="button shadow">Shadow Button</button>      
+    <button type="button" name="button" class="button shadow">Shadow Button</button>
     <button type="button" name="button" class="button disabled">Disabled</button>
 
     <br><br>
-    
+
     <h4 style="margin:0px">Filled buttons</h4>
     <button type="button" name="button" class="button filled">Default</button>
     <button type="button" name="button" class="button filled info">Info</button>
@@ -65,6 +91,7 @@
     <button type="button" name="button" class="button filled disabled">Disabled</button>
 
     <h2>Code Blocks</h2>
+
     <div class="code">
         <span id="language">JavaScript</span>
         code
@@ -74,15 +101,39 @@
 
     <h2>Alert Classes</h2>
 
-    <div class="alert info">Info message<span onclick="removeAlert(this)" class="close">X</span></div>
-    <div class="alert success">Successful operation message<span onclick="removeAlert(this)" class="close">X</span></div>
-    <div class="alert warning">Warning message<span onclick="removeAlert(this)" class="close">X</span></div>
-    <div class="alert error">Error message<span onclick="removeAlert(this)" class="close">X</span></div>
+    <div class="alert info">
+      <div class="content">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque a error tenetur quo expedita pariatur soluta modi mollitia. Deserunt voluptas repellendus, sint sunt voluptatem doloremque repellat iure modi eius libero!
+      </div>
 
-    <script>
-      function removeAlert(e) {
-          e.parentNode.parentNode.removeChild(e.parentNode);
-      }
-    </script>
+      <span class="close"></span>
+    </div>
+
+    <div class="alert success">
+      <div class="content">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque a error tenetur quo expedita pariatur soluta modi mollitia. Deserunt voluptas repellendus, sint sunt voluptatem doloremque repellat iure modi eius libero!
+      </div>
+
+      <span class="close"></span>
+    </div>
+
+    <div class="alert warning">
+      <div class="content">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque a error tenetur quo expedita pariatur soluta modi mollitia. Deserunt voluptas repellendus, sint sunt voluptatem doloremque repellat iure modi eius libero!
+      </div>
+
+      <span class="close"></span>
+    </div>
+
+    <div class="alert error">
+      <div class="content">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque a error tenetur quo expedita pariatur soluta modi mollitia. Deserunt voluptas repellendus, sint sunt voluptatem doloremque repellat iure modi eius libero!
+      </div>
+
+      <span class="close"></span>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="dist/simple.js"></script>
   </body>
 </html>

@@ -1,0 +1,39 @@
+.alert {
+  position: relative;
+  min-height: 50px;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: stretch;
+
+  > .content {
+    padding: 15px;
+  }
+
+  > .close {
+    background-color: rgba(255, 255, 255, .4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+  }
+
+  &.info {
+    background-color: $info;
+  }
+
+  &.success {
+    background-color: $success;
+  }
+
+  &.warning {
+    background-color: $warning;
+  }
+
+  &.error {
+    background-color: $error;
+  }
+}
