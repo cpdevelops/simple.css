@@ -40,6 +40,15 @@ There are two types of buttons as of now; filled and non-filled. To get a filled
 
 > You can also edit the appearance of your button using any of Simple.css' modifier classes. For example, check out the demo page.
 
+##### Code Block Component
+You can create styled codeblocks using the `code` class on any element. Optionally you can add an element with the `language` id to display the code block's language in the top right
+```html
+<div class="code">
+    <span id="language">JavaScript</span>
+    code goes here
+</div>
+```
+
 ##### Alert Component
 You can create styled alerts by applying the `alert` class to any `<div>` element.
 
