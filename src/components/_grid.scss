@@ -2,59 +2,116 @@
 
 
 div.row {
-    width: 100%;
+  width: 100%;
+  display: table;
+  
+  > .column {
+    width: $twelve-width;
+    height: 100%;
+    margin: $column-margin;
+    padding: 15px;
+    float: left;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 0.5em;
+    overflow: hidden;
     
-    > .column {
-      float: left;
-      border: 1px solid #000;
-      padding: $column-padding;
-      
-      &.column-1 {
+    &.column-small-1 {
+      width: $one-width;
+    }
+    
+    &.column-small-2 {
+      width: $two-width;
+    }
+    
+    &.column-small-3 {
+      width: $three-width;
+    }
+    
+    &.column-small-4 {
+      width: $four-width;
+    }
+    
+    &.column-small-5 {
+      width: $five-width;
+    }
+    
+    &.column-small-6 {
+      width: $six-width;
+    }
+    
+    &.column-small-7 {
+      width: $seven-width;
+    }
+    
+    &.column-small-8 {
+      width: $eight-width;
+    }
+    
+    &.column-small-9 {
+      width: $nine-width;
+    }
+    
+    &.column-small-10 {
+      width: $ten-width;
+    }
+    
+    &.column-small-11 {
+      width: $eleven-width;
+    }
+    
+    &.column-small-12 {
+      width: $twelve-width;
+    }
+    
+    @media (min-width: 768px) {
+      &.column-large-1 {
         width: $one-width;
       }
       
-      &.column-2 {
+      &.column-large-2 {
         width: $two-width;
       }
       
-      &.column-3 {
+      &.column-large-3 {
         width: $three-width;
       }
       
-      &.column-4 {
+      &.column-large-4 {
         width: $four-width;
       }
       
-      &.column-5 {
+      &.column-large-5 {
         width: $five-width;
       }
       
-      &.column-6 {
+      &.column-large-6 {
         width: $six-width;
       }
       
-      &.column-7 {
+      &.column-large-7 {
         width: $seven-width;
       }
       
-      &.column-8 {
+      &.column-large-8 {
         width: $eight-width;
       }
       
-      &.column-9 {
+      &.column-large-9 {
         width: $nine-width;
       }
       
-      &.column-10 {
+      &.column-large-10 {
         width: $ten-width;
       }
       
-      &.column-11 {
+      &.column-large-11 {
         width: $eleven-width;
       }
       
-      &.column-12 {
+      &.column-large-12 {
         width: $twelve-width;
       }
+    }
   }
 }
