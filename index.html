@@ -5,6 +5,7 @@
     <title>Simple.css</title>
 
     <link rel="stylesheet" href="dist/simple.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   </head>
 
   <body>
@@ -74,15 +75,25 @@
 
     <h2>Alert Classes</h2>
 
-    <div class="alert info">Info message<span onclick="removeAlert(this)" class="close">X</span></div>
-    <div class="alert success">Successful operation message<span onclick="removeAlert(this)" class="close">X</span></div>
-    <div class="alert warning">Warning message<span onclick="removeAlert(this)" class="close">X</span></div>
-    <div class="alert error">Error message<span onclick="removeAlert(this)" class="close">X</span></div>
+    <div class="alert info">Info message<span class="close">X</span></div>
+    <div class="alert success">Successful operation message<span class="close">X</span></div>
+    <div class="alert warning">Warning message<span class="close">X</span></div>
+    <div class="alert error">Error message<span class="close">X</span></div>
 
     <script>
+    $(document).ready(function(){
+        $(".close").click(function(){
+            $(".alert").fadeOut(1000, function (){
+                $(this).remove();
+            });
+        });
+    });
+    </script>
+
+    <!--<script>
       function removeAlert(e) {
           e.parentNode.parentNode.removeChild(e.parentNode);
       }
-    </script>
+    </script>-->
   </body>
 </html>
