@@ -444,8 +444,43 @@ template {
  * Designed by Colin Pokowitz (cpdev) - Written in 2017
  * MIT Licence
  */
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
 body {
   font-family: 'Open Sans', sans-serif;
+}
+
+.container-fluid, .container {
+  width: 100%;
+  padding: 0 1em;
+  margin: 0 auto;
+}
+
+@media only screen and (min-width: 40em) {
+  .container {
+    max-width: 38em;
+  }
+}
+
+@media only screen and (min-width: 64em) {
+  .container {
+    max-width: 62em;
+  }
+}
+
+@media only screen and (min-width: 90em) {
+  .container {
+    max-width: 88em;
+  }
+}
+
+@media only screen and (min-width: 120em) {
+  .container {
+    max-width: 118em;
+  }
 }
 
 .close {
