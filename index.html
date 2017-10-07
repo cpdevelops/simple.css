@@ -26,6 +26,31 @@
             margin: auto;
           }
         }
+
+        .demo-feature {
+          width: 100%;
+          margin: .75em 0;
+          padding: 1em;
+          background: #e1e1e1;
+          border-radius: .1em;
+        }
+
+        .demo-feature .container {
+          max-width: 30em;
+          min-width: 15em;
+          margin: 0 auto;
+        }
+
+        .box {
+          height: 5em;
+          background-color: #0062cc;
+          color: #f5f5f5;
+          border-radius: .25em;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+
     </style>
   </head>
 
@@ -34,105 +59,117 @@
       <a href="/" class="logo">
         Simple.css Logo
       </a>
-    
+
       <p>A simple css framework.</p>
     </div>
+    <div class="container">
+      <h2 class="header-centered">
+        Simple.css is a simple CSS framework designed to be easy to use and edit. Try it out yourself!
+      </h2>
 
-    <h2 class="header-centered">
-      Simple.css is a simple CSS framework designed to be easy to use and edit. Try it out yourself!
-    </h2>
+      <div align="center">
+        <table>
+          <tr>
+            <td><a href="https://github.com/cpdevelops/simple.css" target="_blank"><button type="button" name="button" class="button success">Github</button></a></td>
+            <td><a href="#"><button type="button" name="button" class="button warning">Download</button></a></td>
+            <td><a href="#"><button type="button" name="button" class="button danger">Hosted File</button></a></td>
+          </tr>
+        </table>
 
-    <div align="center">
-      <table>
-        <tr>
-          <td><a href="https://github.com/cpdevelops/simple.css" target="_blank"><button type="button" name="button" class="button success">Github</button></a></td>
-          <td><a href="#"><button type="button" name="button" class="button warning">Download</button></a></td>
-          <td><a href="#"><button type="button" name="button" class="button danger">Hosted File</button></a></td>
-        </tr>
-      </table>
-
-      <h3>What items does simple.css have?</h3>
-    </div>
-
-    <!--
-        Added inline styling for h4 since I don't want to clutter simple.css with
-        random css and since it looked pretty bad without margin because of the large button
-    -->
-
-    <h2>Button Classes</h2>
-
-    <h4 style="margin:0px">Normal buttons</h4>
-
-    <button type="button" name="button" class="button">Default</button>
-    <button type="button" name="button" class="button info">Info</button>
-    <button type="button" name="button" class="button success">Success</button>
-    <button type="button" name="button" class="button warning">Warning</button>
-    <button type="button" name="button" class="button danger">Danger</button>
-    <button type="button" name="button" class="button">Medium (Default)</button>
-    <button type="button" name="button" class="button large">Large Button</button>
-    <button type="button" name="button" class="button small">Small Button</button>
-    <button type="button" name="button" class="button mini">Mini Button</button>
-    <button type="button" name="button" class="button shadow">Shadow Button</button>
-    <button type="button" name="button" class="button disabled">Disabled</button>
-
-    <br><br>
-
-    <h4 style="margin:0px">Filled buttons</h4>
-    <button type="button" name="button" class="button filled">Default</button>
-    <button type="button" name="button" class="button filled info">Info</button>
-    <button type="button" name="button" class="button filled success">Success</button>
-    <button type="button" name="button" class="button filled warning">Warning</button>
-    <button type="button" name="button" class="button filled danger">Danger</button>
-    <button type="button" name="button" class="button filled">Medium (Default)</button>
-    <button type="button" name="button" class="button filled large">Large Button</button>
-    <button type="button" name="button" class="button filled small">Small Button</button>
-    <button type="button" name="button" class="button filled mini">Mini Button</button>
-    <button type="button" name="button" class="button filled shadow">Shadow Button</button>
-    <button type="button" name="button" class="button filled disabled">Disabled</button>
-
-    <h2>Code Blocks</h2>
-
-    <div class="code">
-        <span id="language">JavaScript</span>
-        code
-        goes
-        here
-    </div>
-
-    <h2>Alert Classes</h2>
-
-    <div class="alert info">
-      <div class="content">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque a error tenetur quo expedita pariatur soluta modi mollitia. Deserunt voluptas repellendus, sint sunt voluptatem doloremque repellat iure modi eius libero!
+        <h3>What items does simple.css have?</h3>
       </div>
 
-      <span class="close"></span>
-    </div>
+      <!--
+          Added inline styling for h4 since I don't want to clutter simple.css with
+          random css and since it looked pretty bad without margin because of the large button
+      -->
 
-    <div class="alert success">
-      <div class="content">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque a error tenetur quo expedita pariatur soluta modi mollitia. Deserunt voluptas repellendus, sint sunt voluptatem doloremque repellat iure modi eius libero!
+      <h2>Containers</h2>
+      <div class="demo-feature">
+        <div class="box container">
+          <span>.container</span>
+        </div>
+      </div>
+      <div class="demo-feature">
+        <div class="box container-fluid">
+          <span>.container-fluid</span>
+        </div>
       </div>
 
-      <span class="close"></span>
-    </div>
+      <h2>Button Classes</h2>
 
-    <div class="alert warning">
-      <div class="content">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque a error tenetur quo expedita pariatur soluta modi mollitia. Deserunt voluptas repellendus, sint sunt voluptatem doloremque repellat iure modi eius libero!
+      <h4 style="margin:0px">Normal buttons</h4>
+
+      <button type="button" name="button" class="button">Default</button>
+      <button type="button" name="button" class="button info">Info</button>
+      <button type="button" name="button" class="button success">Success</button>
+      <button type="button" name="button" class="button warning">Warning</button>
+      <button type="button" name="button" class="button danger">Danger</button>
+      <button type="button" name="button" class="button">Medium (Default)</button>
+      <button type="button" name="button" class="button large">Large Button</button>
+      <button type="button" name="button" class="button small">Small Button</button>
+      <button type="button" name="button" class="button mini">Mini Button</button>
+      <button type="button" name="button" class="button shadow">Shadow Button</button>
+      <button type="button" name="button" class="button disabled">Disabled</button>
+
+      <br><br>
+
+      <h4 style="margin:0px">Filled buttons</h4>
+      <button type="button" name="button" class="button filled">Default</button>
+      <button type="button" name="button" class="button filled info">Info</button>
+      <button type="button" name="button" class="button filled success">Success</button>
+      <button type="button" name="button" class="button filled warning">Warning</button>
+      <button type="button" name="button" class="button filled danger">Danger</button>
+      <button type="button" name="button" class="button filled">Medium (Default)</button>
+      <button type="button" name="button" class="button filled large">Large Button</button>
+      <button type="button" name="button" class="button filled small">Small Button</button>
+      <button type="button" name="button" class="button filled mini">Mini Button</button>
+      <button type="button" name="button" class="button filled shadow">Shadow Button</button>
+      <button type="button" name="button" class="button filled disabled">Disabled</button>
+
+      <h2>Code Blocks</h2>
+
+      <div class="code">
+          <span id="language">JavaScript</span>
+          code
+          goes
+          here
       </div>
 
-      <span class="close"></span>
-    </div>
+      <h2>Alert Classes</h2>
 
-    <div class="alert error">
-      <div class="content">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque a error tenetur quo expedita pariatur soluta modi mollitia. Deserunt voluptas repellendus, sint sunt voluptatem doloremque repellat iure modi eius libero!
+      <div class="alert info">
+        <div class="content">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque a error tenetur quo expedita pariatur soluta modi mollitia. Deserunt voluptas repellendus, sint sunt voluptatem doloremque repellat iure modi eius libero!
+        </div>
+
+        <span class="close"></span>
       </div>
 
-      <span class="close"></span>
-    </div>
+      <div class="alert success">
+        <div class="content">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque a error tenetur quo expedita pariatur soluta modi mollitia. Deserunt voluptas repellendus, sint sunt voluptatem doloremque repellat iure modi eius libero!
+        </div>
 
+        <span class="close"></span>
+      </div>
+
+      <div class="alert warning">
+        <div class="content">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque a error tenetur quo expedita pariatur soluta modi mollitia. Deserunt voluptas repellendus, sint sunt voluptatem doloremque repellat iure modi eius libero!
+        </div>
+
+        <span class="close"></span>
+      </div>
+
+      <div class="alert error">
+        <div class="content">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque a error tenetur quo expedita pariatur soluta modi mollitia. Deserunt voluptas repellendus, sint sunt voluptatem doloremque repellat iure modi eius libero!
+        </div>
+
+        <span class="close"></span>
+      </div>
+    </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="dist/simple.js"></script>
   </body>

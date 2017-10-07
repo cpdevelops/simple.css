@@ -1,7 +1,36 @@
 // Google Font
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
+// Box Sizing to fix padding issues
+* {
+  box-sizing: border-box;
+}
+
 // Base
 body {
   font-family: 'Open Sans', sans-serif;
+}
+
+// Containers
+.container-fluid {
+  width: 100%;
+  padding: 0 1em;
+  margin: 0 auto;
+}
+
+.container {
+  @extend .container-fluid;
+
+  @media only screen and (min-width: $medium) {
+    max-width: 38em;
+  }
+  @media only screen and (min-width: $large) {
+    max-width: 62em;
+  }
+  @media only screen and (min-width: $Xlarge) {
+    max-width: 88em;
+  }
+  @media only screen and (min-width: $XXlarge) {
+    max-width: 118em;
+  }
 }
