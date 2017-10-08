@@ -1,3 +1,5 @@
+@import 'node_modules/normalize.css/normalize';
+
 /*
  * Welcome to simple.css
  * Simple.css is a CSS framework designed to be simple to use and edit
@@ -9,9 +11,11 @@
 @import './variables';
 
 @import './components/base';
+@import './components/helpers';
 @import './components/button';
 @import './components/jumbotron';
 @import './components/header';
 @import './components/list';
 @import './components/alert';
 @import './components/grid';
+@import './components/code';

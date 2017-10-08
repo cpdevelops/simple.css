@@ -7,7 +7,7 @@ export default {
     tasks: {
         styles: {
             paths: {
-                src: '',
+                src: 'styles',
                 dest: ''
             },
             extensions: ['sass', 'scss', 'css'],
@@ -31,9 +31,29 @@ export default {
             }
         },
 
+        scripts: {
+            paths: {
+                src: 'scripts',
+                dest: ''
+            },
+            extensions: ['js', ''],
+            entry: ['simple.js'],
+
+            addons: {
+                babelify: {
+                    presets: ['env'],
+                    plugins: ['add-module-exports']
+                },
+
+                browserify: {
+                    debug: false
+                }
+            }
+        },
+
         server: {
             browserSync: {
-                // proxy: 'project.dev',
+                // proxy: 'simple-css.dev',
                 server: './',
                 port: 5555,
                 logPrefix: 'dvL',
