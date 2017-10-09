@@ -19,11 +19,6 @@ export function serverTask () {
         [`${paths.styles}/**/*.{${tasks.styles.extensions}}`],
         ['styles', sync.reload]
     );
-
-    gulp.watch(
-        [`${paths.images}/**/*.{${tasks.images.extensions}}`],
-        ['images', sync.reload]
-    );
 }
 
 gulp.task('server', serverTask);

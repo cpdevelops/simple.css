@@ -1,0 +1,24 @@
+// Global variable declaration
+
+$white:             #ffffff !default;
+$black:             #000000 !default;
+$dark-gray:         #323232 !default;
+$medium-gray:       #888888 !default;
+$light-gray:        #bbbbbb !default;
+
+$info:              #007bff !default;
+$success:           #28a745 !default;
+$warning:           #ffc107 !default;
+$error:             #dc3545 !default;
+
+$info-dark:         #0062cc !default;
+$success-dark:      #208537 !default;
+$warning-dark:      #cc9a05 !default;
+$danger-dark:       #b02a37 !default;
+
+// Breakpoints
+
+$medium: 40em;
+$large: 64em;
+$Xlarge: 90em;
+$XXlarge: 120em;
