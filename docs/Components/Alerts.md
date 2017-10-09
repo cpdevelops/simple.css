@@ -1,3 +1,5 @@
+# Alert Component
+
 You can create styled alerts by applying the `alert` class to any `<div>` element.
 
 There are currently four `alert` styles: `info`, `success`, `warning`, and `error`.
