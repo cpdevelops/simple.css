@@ -21,37 +21,3 @@ To help out with Simple.css, follow these steps:
 You can join the Gitter chat room [here](https://gitter.im/draconicdevv/simple.css?utm_source=share-link&utm_medium=link&utm_campaign=share-link).
 
 Happy coding!
-
-### Components
-List of components can be found [here](https://github.com/cpdevelops/simple.css/tree/master/src/components)
-
-##### Alert Component
-You can create styled alerts by applying the `alert` class to any `<div>` element.
-
-There are currently four `alert` styles: `info`, `success`, `warning`, and `error`.
-
-If you add `<span class="close"></span>` inside of `<div class="alert" />` component, it will become closable by user interaction.
-
-```html
-<!-- Sample info alert component. Apply different modifier class for different color variation -->
-
-<div class="alert info">
-  <div class="content">
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque a error tenetur quo expedita pariatur soluta modi mollitia. Deserunt voluptas repellendus, sint sunt voluptatem doloremque repellat iure modi eius libero!
-  </div>
-
-  <span class="close"></span>
-</div>
-```
-
-```html
-<!-- Want close on the other side? No problems, move the `span.close` before `div.content` -->
-
-<div class="alert info">
-  <span class="close"></span>
-
-  <div class="content">
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque a error tenetur quo expedita pariatur soluta modi mollitia. Deserunt voluptas repellendus, sint sunt voluptatem doloremque repellat iure modi eius libero!
-  </div>
-</div>
-```
