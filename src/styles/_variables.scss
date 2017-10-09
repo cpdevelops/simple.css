@@ -22,3 +22,20 @@ $medium: 40em;
 $large: 64em;
 $Xlarge: 90em;
 $XXlarge: 120em;
+
+// Column widths
+
+$column-horiz-margin: 5px;
+
+$one-width: calc((100% * (1 / 12)) - (#{$column-horiz-margin} * 2));
+$two-width: calc((100% * (2 / 12)) - (#{$column-horiz-margin} * 2));
+$three-width: calc((100% * (3 / 12)) - (#{$column-horiz-margin} * 2));
+$four-width: calc((100% * (4 / 12)) - (#{$column-horiz-margin} * 2));
+$five-width: calc((100% * (5 / 12)) - (#{$column-horiz-margin} * 2));
+$six-width: calc((100% * (6 / 12)) - (#{$column-horiz-margin} * 2));
+$seven-width: calc((100% * (7 / 12)) - (#{$column-horiz-margin} * 2));
+$eight-width: calc((100% * (8 / 12)) - (#{$column-horiz-margin} * 2));
+$nine-width: calc((100% * (9 / 12)) - (#{$column-horiz-margin} * 2));
+$ten-width: calc((100% * (10 / 12)) - (#{$column-horiz-margin} * 2));
+$eleven-width: calc((100% * (11 / 12)) - (#{$column-horiz-margin} * 2));
+$twelve-width: calc(100% - (#{$column-horiz-margin} * 2));
