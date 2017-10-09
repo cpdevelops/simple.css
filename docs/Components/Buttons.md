@@ -1,5 +1,3 @@
-# Button Component
-
 To add buttons, use the following code.
 
 ```
