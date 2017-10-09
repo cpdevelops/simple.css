@@ -673,7 +673,7 @@ ul.dotList {
   min-height: 50px;
   border-radius: 4px;
   margin-bottom: 20px;
-  color: white;
+  color: rgba(255, 255, 255, 0.8);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -705,6 +705,9 @@ ul.dotList {
       -ms-flex-align: center;
           align-items: center;
   padding: 10px;
+  border: none;
+  color: inherit;
+  cursor: pointer;
 }
 
 .alert.info {
@@ -717,6 +720,7 @@ ul.dotList {
 
 .alert.warning {
   background-color: #ffc107;
+  color: rgba(55, 55, 55, 0.8);
 }
 
 .alert.error {
