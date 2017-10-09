@@ -25,21 +25,6 @@ Happy coding!
 ### Components
 List of components can be found [here](https://github.com/cpdevelops/simple.css/tree/master/src/components)
 
-##### Button Component
-Buttons can be styled by applying the `button` class to any `<button>` element.
-
-```html
-<button type="button" class="button">Default</button>
-```
-
-There are two types of buttons as of now; filled and non-filled. To get a filled button we add the "filled" class to our button.
-
-```html
-<button type="button" class="button filled">Default filled</button>
-```
-
-> You can also edit the appearance of your button using any of Simple.css' modifier classes. For example, check out the demo page.
-
 ##### Code Block Component
 You can create styled codeblocks using the `code` class on any element. Optionally you can add an element with the `language` id to display the code block's language in the top right
 ```html
