@@ -1,3 +1,10 @@
+/*
+ * Welcome to simple.css
+ * Simple.css is a CSS framework designed to be simple to use and edit
+ *
+ * Designed by Colin Pokowitz (cpdev) - Written in 2017
+ * MIT Licence
+ */
 @import url("https://fonts.googleapis.com/css?family=Open+Sans");
 body {
   font-family: 'Open Sans', sans-serif;
@@ -15,7 +22,6 @@ button.button {
 }
 
 button.button:hover {
-  -webkit-transition: background-color 0.1s, color 0.1s;
   transition: background-color 0.1s, color 0.1s;
   background-color: #000000;
   color: #ffffff;
@@ -62,13 +68,11 @@ button.button.danger:hover {
 }
 
 button.button.shadow {
-  -webkit-box-shadow: 3px 3px #888888;
-          box-shadow: 3px 3px #888888;
+  box-shadow: 3px 3px #888888;
 }
 
 button.button.shadow:hover {
-  -webkit-box-shadow: 0 0;
-          box-shadow: 0 0;
+  box-shadow: 0 0;
 }
 
 button.button.mini {
@@ -89,7 +93,6 @@ button.button.filled {
 }
 
 button.button.filled:hover {
-  -webkit-transition: background-color 0.1s, border-color 0.1s;
   transition: background-color 0.1s, border-color 0.1s;
   background-color: #323232;
   border-color: #323232;
@@ -136,13 +139,11 @@ button.button.filled.danger:hover {
 }
 
 button.button.filled.shadow {
-  -webkit-box-shadow: 3px 3px #bbbbbb;
-          box-shadow: 3px 3px #bbbbbb;
+  box-shadow: 3px 3px #bbbbbb;
 }
 
 button.button.filled.shadow:hover {
-  -webkit-box-shadow: 0 0;
-          box-shadow: 0 0;
+  box-shadow: 0 0;
 }
 
 div.jumbotron {
@@ -202,4 +203,77 @@ span.close {
 
 span.close:hover {
   color: #000000;
+}
+
+img.polaroid {
+  border: solid 1em white;
+  border-bottom-width: 5em;
+  outline: solid thin black;
+}
+
+img.shadow {
+  box-shadow: 3px 3px 3px #888888;
+}
+
+img.rounded {
+  border-radius: 50%;
+}
+
+img.thumbnail {
+  border-radius: 1px;
+}
+
+img.border {
+  border: solid 1px #000000;
+}
+
+img.info {
+  border-color: #007bff;
+}
+
+img.success {
+  border-color: #28a745;
+}
+
+img.warning {
+  border-color: #ffc107;
+}
+
+img.error {
+  border-color: #dc3545;
+}
+
+img.blur {
+  -webkit-filter: blur(5px);
+          filter: blur(5px);
+}
+
+img.blur.blur-small {
+  -webkit-filter: blur(2px);
+          filter: blur(2px);
+}
+
+img.blur.blur-mini {
+  -webkit-filter: blur(1px);
+          filter: blur(1px);
+}
+
+img.blur.blur-large {
+  -webkit-filter: blur(10px);
+          filter: blur(10px);
+}
+
+img.grayscale {
+  -webkit-filter: grayscale(1);
+          filter: grayscale(1);
+}
+
+img.sepia {
+  -webkit-filter: sepia(1);
+          filter: sepia(1);
+}
+
+img.invert {
+  -webkit-filter: invert(1);
+          filter: invert(1);
 }
