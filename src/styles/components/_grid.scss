@@ -3,14 +3,14 @@
 
 div.row {
   width: 100%;
-  display: table;
+  display: flex;
+  flex-wrap: wrap;
   
   > .column {
     width: $twelve-width;
-    height: 100%;
     margin: 10px $column-horiz-margin;
     padding: 15px;
-    float: left;
+    flex-direction: row;
     box-sizing: border-box;
     border: 1px solid black;
     border-radius: 0.5em;
