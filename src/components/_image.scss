@@ -1,0 +1,54 @@
+@import '../_variables.scss';
+
+img{
+	&.polaroid{
+		border: solid 1em white;
+		border-bottom-width: 5em;
+		outline: solid thin black;
+	}
+	&.shadow{
+		box-shadow: 3px 3px 3px $medium-gray;
+	}
+	&.rounded{
+		border-radius: 50%;
+	}
+	&.thumbnail{
+		border-radius: 1px;
+	}
+	&.border{
+		border: solid 1px $black;
+	}
+	&.info{
+		border-color: $info;
+	}
+	&.success{
+		border-color: $success;
+	}
+	&.warning{
+		border-color: $warning;
+	}
+	&.error{
+		border-color: $error;
+	}
+	&.blur{
+		filter: blur(5px);
+		&.blur-small{
+			filter: blur(2px);
+		}
+		&.blur-mini{
+			filter: blur(1px);
+		}
+		&.blur-large{
+			filter: blur(10px);
+		}
+	}
+	&.grayscale{
+		filter: grayscale(1);
+	}
+	&.sepia{
+		filter: sepia(1);
+	}
+	&.invert{
+		filter: invert(1);
+	}
+}
