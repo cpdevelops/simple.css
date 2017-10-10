@@ -9,7 +9,7 @@ Simple.css is a simple CSS framework designed to be easy to work with and edit. 
 
 ### Documentation
 
-Check out the documentation with 
+Check out the documentation for this project [here](http://simplecss.readthedocs.io/en/latest/). 
 
 ### Install
 
