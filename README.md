@@ -7,6 +7,10 @@
 ### About
 Simple.css is a simple CSS framework designed to be easy to work with and edit. It is entirely open source and free for anyone to use. It is currently in development; however, if you'd like to follow its progress you can do so [here](http://cpdev.me/simple.css/).
 
+### Documentation
+
+Check out the documentation with 
+
 ### Install
 
 ```npm install simple_css```
