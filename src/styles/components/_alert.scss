@@ -3,7 +3,7 @@
   min-height: 50px;
   border-radius: 4px;
   margin-bottom: 20px;
-  color: white;
+  color: rgba(255, 255, 255, .8);
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -19,6 +19,9 @@
     justify-content: center;
     align-items: center;
     padding: 10px;
+    border: none;
+    color: inherit;
+    cursor: pointer;
   }
 
   &.info {
@@ -31,6 +34,7 @@
 
   &.warning {
     background-color: $warning;
+    color: rgba(55, 55, 55, .8);
   }
 
   &.error {
