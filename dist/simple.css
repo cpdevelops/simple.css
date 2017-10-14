@@ -257,14 +257,14 @@ position: relative;*/
 }
 
 .list-group-item.disabled:hover {
-  background: red;
+  background: #868e96;
   color: #fff;
   cursor: not-allowed;
-  opacity: .65;
+  opacity: .4;
 }
 
 a li .list-group-item {
-  background: blue;
+  background: #007bff;
   text-decoration: none;
 }
 
@@ -275,33 +275,33 @@ a .list-group-item:hover {
 }
 
 .list-group-item.active {
-  background: blue;
+  background: #007bff;
   color: #fff;
   opacity: .65;
 }
 
 .list-group-item.info {
-  background-color: blue;
+  background-color: #007bff;
   color: #fff;
   opacity: .5;
 }
 
 .list-group-item.success {
-  background-color: green;
+  background-color: #28a745;
   color: #fff;
   opacity: .65;
 }
 
 .list-group-item.warning {
-  background-color: yellow;
+  background-color: #ffc107;
   color: #fff;
   opacity: .65;
 }
 
 .list-group-item.danger {
-  background-color: red;
+  background-color: #dc3545;
   color: #fff;
-  opacity: .6;
+  opacity: .65;
 }
 
 .alert {

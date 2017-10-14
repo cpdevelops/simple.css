@@ -33,17 +33,17 @@ position: relative;*/
     cursor: not-allowed;
     opacity: .65;
     &:hover {
-      background: red;
+      background: #868e96;
       color: #fff;
       cursor: not-allowed;
-      opacity: .65;
+      opacity: .4;
     }
   }
 }
 
 a {
   li .list-group-item {
-    background: blue;
+    background: $info;
     text-decoration: none;
   }
   .list-group-item:hover {
@@ -55,29 +55,29 @@ a {
 
 .list-group-item {
   &.active {
-    background: blue;
+    background: $info;
     color: #fff;
     opacity: .65;
   }
   &.info {
-    background-color: blue;
+    background-color: $info;
     color: #fff;
     opacity: .5;
   }
   &.success {
-    background-color: green;
+    background-color: $success;
     color: #fff;
     opacity: .65;
   }
   &.warning {
-    background-color: yellow;
+    background-color: $warning;
     color: #fff;
     opacity: .65;
   }
   &.danger {
-    background-color: red;
+    background-color: $error;
     color: #fff;
-    opacity: .6;
+    opacity: .65;
   }
 }
 
