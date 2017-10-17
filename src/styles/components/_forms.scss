@@ -1,0 +1,59 @@
+form {
+  &.form-inline {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    .form-group {
+      margin: 0 0.5em;
+    }
+  }
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin: 1em 0;
+
+  label {
+    font-size: 0.9em;
+    margin-bottom: 0.5em;
+  }
+
+  textarea {
+    resize: none;
+    font-family: inherit;
+  }
+}
+
+.form-check-input {
+  outline-width: 0;
+}
+
+
+.form-control {
+  padding: 1em 0.5em;
+  margin: 0.5em 0;
+  border-radius: 5px;
+  border: 1px solid $light-gray;
+  transition: 0.5s;
+
+  &:focus {
+    outline-width: 0;
+    border: 1px solid $info;
+  }
+
+  &.large {
+    font-size: 1.25em;
+    padding: 0.8em 0.5em;
+  }
+
+  &.small {
+    font-size: 0.75em;
+    padding: 0.5em;
+  }
+}
+
+input[readonly] {
+  background-color: $light-gray;
+}
