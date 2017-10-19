@@ -491,3 +491,73 @@ div.row > .column.column-small-12 {
   padding: 5px;
   background: #007bff;
 }
+
+form.form-inline {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+form.form-inline .form-group {
+  margin: 0 0.5em;
+}
+
+.form-group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 1em 0;
+}
+
+.form-group label {
+  font-size: 0.9em;
+  margin-bottom: 0.5em;
+}
+
+.form-group textarea {
+  resize: none;
+  font-family: inherit;
+}
+
+.form-check-input {
+  outline-width: 0;
+}
+
+.form-control {
+  padding: 1em 0.5em;
+  margin: 0.5em 0;
+  border-radius: 5px;
+  border: 1px solid #bbbbbb;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.form-control:focus {
+  outline-width: 0;
+  border: 1px solid #007bff;
+}
+
+.form-control.large {
+  font-size: 1.25em;
+  padding: 0.8em 0.5em;
+}
+
+.form-control.small {
+  font-size: 0.75em;
+  padding: 0.5em;
+}
+
+input[readonly] {
+  background-color: #bbbbbb;
+}
