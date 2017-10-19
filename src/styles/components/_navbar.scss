@@ -1,0 +1,76 @@
+/* experiment*/
+
+body {
+  margin: 0;
+  padding-top: 70px;
+}
+
+.navbar {
+  width: 100%;
+  height: 70px;
+  background: linear-gradient(black, gray);
+  color: aliceblue;
+  position: fixed;
+  top: 0;
+  opacity: 0.7;
+  font-family: cursive;
+}
+
+/**/
+
+#linkref {
+  color: aliceblue;
+  text-decoration: none;
+  padding: 15px;
+  opacity: 1;
+  font-size: 20px;
+  display: inline-block;
+  &:hover {
+    color: aliceblue;
+    text-decoration: none;
+    padding: 15px;
+    opacity: 0.5;
+  }
+}
+
+.brand {
+  width: 300px;
+  float: left;
+}
+
+.navigation {
+  margin-top: 20px;
+  width: 400px;
+  float: right;
+}
+
+.search {
+  position: absolute;
+  top: 30px;
+  left: 650px;
+  img {
+    margin-top: 0px;
+  }
+}
+
+/*
+    */
+
+input {
+  &[type="text"] {
+    width: 150px;
+    display: inline-block;
+    margin-bottom: 10px;
+    background: linear-gradient(white, gray);
+    border-radius: 5px;
+  }
+  &[type="button"] {
+    width: 60px;
+    display: inline-block;
+    margin-bottom: 10px;
+    background: linear-gradient(white, gray);
+    border-radius: 5px;
+  }
+}
+
+/* experiment done*/

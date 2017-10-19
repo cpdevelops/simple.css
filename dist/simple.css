@@ -561,3 +561,115 @@ form.form-inline .form-group {
 input[readonly] {
   background-color: #bbbbbb;
 }
+
+/* experiment*/
+body {
+  margin: 0;
+  padding-top: 70px;
+}
+
+.navbar {
+  width: 100%;
+  height: 70px;
+  background: -webkit-gradient(linear, left top, left bottom, from(black), to(gray));
+  background: linear-gradient(black, gray);
+  color: aliceblue;
+  position: fixed;
+  top: 0;
+  opacity: 0.7;
+  font-family: cursive;
+}
+
+/**/
+#linkref {
+  color: aliceblue;
+  text-decoration: none;
+  padding: 15px;
+  opacity: 1;
+  font-size: 20px;
+  display: inline-block;
+}
+
+#linkref:hover {
+  color: aliceblue;
+  text-decoration: none;
+  padding: 15px;
+  opacity: 0.5;
+}
+
+.brand {
+  width: 300px;
+  float: left;
+}
+
+.navigation {
+  margin-top: 20px;
+  width: 400px;
+  float: right;
+}
+
+.search {
+  position: absolute;
+  top: 30px;
+  left: 650px;
+}
+
+.search img {
+  margin-top: 0px;
+}
+
+/*
+    */
+input[type="text"] {
+  width: 150px;
+  display: inline-block;
+  margin-bottom: 10px;
+  background: -webkit-gradient(linear, left top, left bottom, from(white), to(gray));
+  background: linear-gradient(white, gray);
+  border-radius: 5px;
+}
+
+input[type="button"] {
+  width: 60px;
+  display: inline-block;
+  margin-bottom: 10px;
+  background: -webkit-gradient(linear, left top, left bottom, from(white), to(gray));
+  background: linear-gradient(white, gray);
+  border-radius: 5px;
+}
+
+/* experiment done*/
+footer {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  color: aliceblue;
+  text-align: center;
+  height: 180px;
+  font-family: cursive;
+  background: -webkit-gradient(linear, left top, left bottom, from(white), to(gray));
+  background: linear-gradient(white, gray);
+}
+
+hr {
+  height: 3px;
+  color: aliceblue;
+}
+
+footer .contact {
+  height: 30px;
+}
+
+#link {
+  color: black;
+  text-decoration: none;
+  margin: 10px;
+  font-size: 20px;
+  display: inline-block;
+  width: 150px;
+  padding: 3px;
+  background: -webkit-gradient(linear, left top, left bottom, from(gray), to(aliceblue));
+  background: linear-gradient(gray, aliceblue);
+  opacity: 0.9;
+}
+
+/* experiment done*/
