@@ -1,0 +1,12 @@
+.table, .table th, .table td {
+    padding: 0.75rem 1.25rem;
+}
+
+.table {
+    background-color: #ddd;
+    border-collapse: collapse;
+}
+
+.table th {
+    background-color: $light-gray;
+}
